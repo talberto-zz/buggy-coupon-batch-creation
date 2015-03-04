@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE gsa-template SYSTEM "dynamosystemresource:/atg/dtds/gsa/gsa_1.0.dtd">
+
+<gsa-template>
+  <import-items>
+    <add-item item-descriptor="CouponBatch" id="dclm3a9f44">
+      <set-property name="prefix"><![CDATA[GPR]]></set-property>
+      <set-property name="displayName"><![CDATA[Groupon -40%]]></set-property>
+      <!-- rdonly  derived   <set-property name="derivedDisplayName"><![CDATA[Groupon -40%]]></set-property>  -->
+      <set-property name="uses"><![CDATA[0]]></set-property>
+      <!-- export is false   <set-property name="version"><![CDATA[7]]></set-property>  -->
+      <set-property name="codesGenerated"><![CDATA[true]]></set-property>
+      <set-property name="lastModified"><![CDATA[3/4/2015 12:28:59]]></set-property>
+      <!-- rdonly  derived   <set-property name="redemptionRate"><![CDATA[0.07]]></set-property>  -->
+      <set-property name="maxUses"><![CDATA[1]]></set-property>
+      <!-- rdonly  derived   <set-property name="numberClaimed"><![CDATA[7]]></set-property>  -->
+      <set-property name="status"><![CDATA[claimed]]></set-property>
+      <set-property name="numberOfCoupons"><![CDATA[100]]></set-property>
+      <!-- rdonly  derived   <set-property name="hasPromotions"><![CDATA[true]]></set-property>  -->
+      <set-property name="promotions"><![CDATA[promo500001d]]></set-property>
+      <set-property name="type"><![CDATA[CouponBatch]]></set-property>
+      <set-property name="seedValue"><![CDATA[ertos6jloxh+6041ODAluuIheQOY9ykcf/ryXWarPQwtG+Bm3OAnJFQebJH2xZavPb4B7wWmvoQnK06dDxDHbSdiNULQbcU0wq3Tv0cVSbrZJCx6rFKiaLdtes1FdZXoc1Q6IctLn5N6SY4tlEd1h+dKexEYA4brRMag6AvrtuM=]]></set-property>
+    </add-item>
+  </import-items>
+</gsa-template>

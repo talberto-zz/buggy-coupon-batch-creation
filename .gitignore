@@ -1,0 +1,19 @@
+# exclude generated manifests
+MANIFEST.MF
+# exclude a project-wide target directory
+target
+# Eclipse files and folders
+/.metadata/
+*.settings
+.classpath
+.project
+.externalToolBuilders
+maven-eclipse.xml
+# IntelliJ IDEA
+*.ipr
+*.iml
+*.iws
+/*.pmd
+.idea
+# test folders
+rebel.xml

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE gsa-template SYSTEM "dynamosystemresource:/atg/dtds/gsa/gsa_1.0.dtd">
+
+<gsa-template>
+  <import-items>
+    <add-item item-descriptor="Order Discount" id="promo500001d">
+      <!-- rdonly  derived   <set-property name="displayName"><![CDATA[Groupon -40% - code unique]]></set-property>  -->
+      <!-- export is false   <set-property name="version"><![CDATA[2]]></set-property>  -->
+      <set-property name="pmdlVersion"><![CDATA[2]]></set-property>
+      <set-property name="lastModified"><![CDATA[2/26/2015 16:49:53]]></set-property>
+      <set-property name="creationDate"><![CDATA[2/26/2015 16:47:14]]></set-property>
+<!--       <set-property name="siteIds"><![CDATA[Wa11ace_and_Gr0mit]]></set-property> -->
+      <!-- rdonly  derived   <set-property name="isSiteRestricted"><![CDATA[false]]></set-property>  -->
+      <!-- rdonly  derived   <set-property name="discountDescription"><![CDATA[unconditionalSingleDiscount]]></set-property>  -->
+      <set-property name="template"><![CDATA[/order/getOrderDiscount.pmdt]]></set-property>
+      <set-property name="displayNameDefault"><![CDATA[Groupon -40% - code unique]]></set-property>
+      <set-property name="type"><![CDATA[Order Discount]]></set-property>
+      <set-property name="pmdlRule"><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+            <!DOCTYPE pricing-model  SYSTEM "dynamosystemresource:/atg/dtds/pmdl/pmdl_1.0.dtd">
+            <pricing-model>
+              <qualifier/>
+              <offer>
+                <discount-structure calculator-type="standard" 
+                                    discount-type="percentOff" 
+                                    adjuster="40"/>
+              </offer>
+            </pricing-model>]]></set-property>
+      <set-property name="templateValues"><![CDATA[display-name-L29yZGVyL2dldE9yZGVyRGlzY2=Get Order Discount,discount_type_value=percentOff,discount_value=40]]></set-property>
+    </add-item>
+  </import-items>
+</gsa-template>

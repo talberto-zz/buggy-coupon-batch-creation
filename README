@@ -1,0 +1,29 @@
+ATG UNIT TESTING FOR DUMMIES
+
+1. Prerequirements
+  * Maven
+  * JDK 7
+  * ATG/Oracle Commerce v11.1
+  
+2. Download and install ATG Dust, if not yet installed
+  
+  2.1 Download ATG Dust binary from http://sourceforge.net/projects/atgdust/?source=typ_redirect
+  
+  2.2 Extract the download zip somewhere, say under /tmp/atgdust
+  
+  2.3 Install ATG Dust library into your Maven repository
+  
+    * cd /tmp/atgdust/lib
+    * mvn install:install-file -Dfile=atgdust-1.2.2.jar -DgroupId=net.sf.atgdust -DartifactId=atgdust -Dversion=1.2.2 -Dpackaging=jar
+    
+3. Mavenize ATG required libraries
+
+  3.1 Have your DYNAMO_ROOT env variable point to your local ATG 11 installation, for example
+    
+    * export DYNAMO_ROOT=/opt/atg-11
+    
+  3.2 Mavenize deps executing included script bin/mavenize-atg.sh
+  
+4. Run the tests
+  
+  * mvn test
